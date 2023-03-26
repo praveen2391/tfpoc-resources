@@ -3,6 +3,15 @@ variable "vnet-name" {
   default = "tfpoc-vnet"
 }
 
+variable "rg-location" {
+  type = string
+  default = "West Europe"
+}
+
+variable "rg-name" {
+  type = string
+  default = "tfpoc-rg"
+}
 variable "address-space" {
   default = ["10.0.0.0/16"]
 }
